@@ -1,7 +1,6 @@
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import get_object_or_404, redirect
 from django.http import Http404
 from django.utils import timezone
-from django.core.paginator import Paginator
 from django.contrib.auth import get_user_model
 from django.views.generic import (
     CreateView,
